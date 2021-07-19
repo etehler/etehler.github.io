@@ -1,0 +1,261 @@
+body {
+	font-family: 'Oswald', sans-serif;
+	color: #555555;
+}
+
+.flickr-embed-frame {
+	display: block;
+}
+
+.block {
+	clear: both;
+}
+
+.block.intro-block {
+	overflow: hidden;
+	height: 100vh;
+}
+
+.block.intro-block .background {
+	width: 100%;
+	height: 110vh;
+	background: url(blommor.jpg);
+	background-size: cover;  
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.block.intro-block .intro {
+	position: absolute;
+	bottom: 25%;
+	left: 50%;
+	margin-left: -320px;
+	width: 640px;
+	padding: 0 20px;
+}
+
+.block.intro-block .intro h2 {
+	font-size: 90px;
+	text-align: left;
+	color: #ffffff;
+	opacity: 0.9;
+	margin: 0;
+}
+
+
+.block.intro-block .intro h1 {
+	margin: -20px 0 0 0;
+	font-size: 170px;
+	text-align: center;
+	color: #ffffff;
+	opacity: 0.9;
+}
+
+.block.intro-block .intro h3 {
+	font-size: 60px;
+	text-align: right;
+	color: #ffffff;
+	opacity: 0.9;
+	margin: -30px 0 0 0;
+}
+
+.block.intro-block .down {
+	position: absolute;
+	bottom: -10px;
+	width: 100%;
+	text-align: center;
+}
+
+.block.intro-block .down a {
+	opacity: 0.8;
+	color: #ffffff;
+	font-size: 120px;
+}
+
+.block.intro-block .down a:hover {
+	opacity: 1;
+}
+
+.image-block .image-container {
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+.asensby  {
+	height: 560px;
+}
+
+.asensby .image-container {
+	background: url(asensby.jpg);
+	background-position: center center;
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
+
+.bauergarden  {
+	height: 440px;
+}
+
+.bauergarden .image-container {
+	background: url(bauergarden.jpg);
+	background-position: center center;
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
+
+.talt  {
+	height: 360px;
+}
+
+.talt .image-container {
+	background: url(talt.jpg);
+	background-position: center center;
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
+
+.block.osa-block {
+	overflow: hidden;
+	position: relative;
+	height: 100vh;
+}
+
+.block.osa-block .background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: url(kyss.jpg);
+	background-size: cover;  
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.block.osa-block .background:before {
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  background: rgba(0,0,0,0.8);
+}
+
+.left-block, .right-block {
+	width: 50%;
+}
+
+.left-block {
+	float: left;
+}
+
+.right-block {
+	float: right;
+}
+
+.image-block {
+	overflow: hidden;
+}
+
+.block-inverse {
+	color: #ffffff;
+}
+
+.block-inverse h1, .block-inverse p {
+	opacity: 0.8;
+}
+
+.block-light {
+	background: linear-gradient(to bottom right, #ffffff, #f4f4f4);
+	
+}
+
+h1, h2 {
+	font-family: 'Sacramento', cursive;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+h2 {
+	font-size: 60px;
+}
+
+p {
+	font-weight: 200;
+	font-size: 17px;
+}
+
+a, .btn {
+	transition: all 0.4s ease-in-out;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 640px) {
+	.block.intro-block .intro {
+		left: 0;
+		margin: 0;
+		width: 100%
+	}
+
+	.block.intro-block .intro h2 {
+		font-size: 13vw;
+	}
+
+
+	.block.intro-block .intro h1 {
+		margin: -3vw 0 0 0;
+		font-size: 25vw;
+	}
+
+	.block.intro-block .intro h3 {
+		margin: -4vw 0 0 0;
+		font-size: 9vw;
+	}
+	
+	.block.intro-block .down {
+		bottom: -1vw;
+	}
+	
+	.block.intro-block .down a {
+		font-size: 17vw;
+		
+	}
+	
+	h1 {
+		font-size: 60px;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+
+	p {
+		font-weight: 200;
+		font-size: 15px;
+	}
+}
+
+
+@media only screen and (max-width: 1200px) {
+	.left-block, .right-block {
+		height: auto;
+		width: 100%;
+	}
+
+	.left-block {
+		float: left;
+	}
+
+	.right-block {
+		float: left;
+	}
+	
+	.image-block {
+		height: 360px;
+	}
+}
